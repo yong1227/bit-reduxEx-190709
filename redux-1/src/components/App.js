@@ -8,8 +8,10 @@ import ControllerButtons from '../containers/ControllerButtons'
 import VisibleTodoList from '../containers/VisibleTodoList'
 
 const App = () =>(
+
+
     <div className="App">
-      
+      <Footer/>
       <TodoInput/>
       <TodoList/>
       <ControllerButtons/>

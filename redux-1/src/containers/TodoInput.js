@@ -3,7 +3,7 @@ import {addTodo} from "../actions";
 import {connect} from 'react-redux';
 
 class TodoInput extends Component {
-
+ 
     clickHandler = (e) => {
 
         const input = this.input
